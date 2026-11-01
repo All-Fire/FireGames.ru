@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0d10">
+<meta name="description" content="FireGames — официальный сайт разработчика мобильных игр и информация о проектах.">
+<title>FireGames — разработчик мобильных игр</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="top"><a class="brand" href="index.html">FIRE<span>GAMES</span></a><nav><a href="index.html">Главная</a><a href="save-the-lost/index.html">Игры</a><a href="save-the-lost/privacy.html">Конфиденциальность</a><a href="save-the-lost/terms.html">Условия</a><a href="save-the-lost/index.html#contacts">Контакты</a><a href="save-the-lost/index-en.html">EN</a></nav></div></header>
+<main>
+<section class="hero"><div class="eyebrow">Официальный сайт разработчика</div><h1>FireGames</h1><p>Разработка и выпуск мобильных игр. Здесь публикуются сведения о проектах, контакты разработчика и юридическая информация.</p><div class="meta"><span class="pill">Mobile games</span><span class="pill">Android</span></div></section>
+<section class="paper"><h2>Игры</h2><div class="grid"><a class="tile" href="save-the-lost/index.html"><strong>Save The Lost</strong><span>Хоррор-экшен для Android: исследуйте опасные помещения, сражайтесь с монстрами и спасайте выживших.</span></a></div>
+<h2 id="contacts">Сведения о разработчике</h2>
+<p><strong>Правообладатель / разработчик:</strong> <span data-config="developerNameRu">[ФИО]</span></p>
+<p><strong>Страна:</strong> <span data-config="countryRu">[страна]</span></p>
+<p><strong>Юридический адрес:</strong> <span data-config="legalAddressRu">[юридический адрес]</span></p>
+<p><strong>Фактический/почтовый адрес:</strong> <span data-config="actualAddressRu">[адрес]</span></p>
+<p><strong>ИНН / налоговый номер:</strong> <span data-config="taxIdRu">[налоговый номер]</span></p>
+<p><strong>Email:</strong> <a data-email-link><span data-config="email">[email]</span></a></p>
+<div class="notice">FireGames — название сайта / имя разработчика для представления проектов. Перед публикацией заполните данные в <code>site-config.js</code> и проверьте, какие сведения требуется раскрывать для выбранных магазинов приложений.</div>
+<h2>Документы</h2><div class="grid"><a class="tile" href="save-the-lost/privacy.html"><strong>Политика конфиденциальности — Save The Lost</strong><span>Обработка данных в игре и рекламным SDK.</span></a><a class="tile" href="save-the-lost/rights.html"><strong>Права пользователей</strong><span>Порядок запросов по персональным данным.</span></a><a class="tile" href="save-the-lost/terms.html"><strong>Условия использования — Save The Lost</strong><span>Правила использования игры.</span></a></div>
+</section></main>
+<footer><p>FireGames · Разработка мобильных игр</p><p>Контакт: <a class="contact" data-email-link><span data-config="email">[email]</span></a></p><p><a href="save-the-lost/privacy.html">Политика конфиденциальности Save The Lost</a> · <a href="save-the-lost/terms.html">Условия использования</a></p></footer>
+<script src="site-config.js"></script><script>
+(function(){const c=window.FIREGAMES_SITE_CONFIG||{};document.querySelectorAll('[data-config]').forEach(el=>{const k=el.getAttribute('data-config');if(c[k]!==undefined)el.textContent=c[k];});document.querySelectorAll('[data-email-link]').forEach(el=>{const e=c.email||'';if(e&&!e.includes('ЗАМЕНИТЬ')&&!e.includes('REPLACE'))el.href='mailto:'+e;else el.removeAttribute('href');});})();
+</script></body></html>
